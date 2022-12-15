@@ -114,14 +114,14 @@ function [indexes,RF_vectors, VM_VL_vectors] = create_train_set(global_matrices,
         hold on;
         plot(1:100, VM_VL1, '-k', 'LineWidth', 2);
         hold off;
-        subtitle("Condition 60 RPM 35 Hz", 'FontSize', 10);
+        subtitle("Condition 60 RPM 6.5 N m", 'FontSize', 10);
     
         subplot(5,2,2);
         plot(1:100, RF1, '-r', 'LineWidth', 2);
         hold on;
         plot(1:100, VM_VL1, '-k', 'LineWidth', 2);
         hold off;
-        subtitle("Condition 60 RPM 35 Hz", 'FontSize', 10);
+        subtitle("Condition 60 RPM 6.5 N m", 'FontSize', 10);
         
         subplot(5,2,3);
         plot(1:100, RF2, '-r', 'LineWidth', 2);
@@ -129,7 +129,7 @@ function [indexes,RF_vectors, VM_VL_vectors] = create_train_set(global_matrices,
         plot(1:100, VM_VL2, '-k', 'LineWidth', 2);
         hold off;
         hold off;
-        subtitle("Condition 60 RPM 90 Hz", 'FontSize', 10);
+        subtitle("Condition 60 RPM 12.9 N m", 'FontSize', 10);
         
         subplot(5,2,5);
         plot(1:100, RF3, '-r', 'LineWidth', 2);
@@ -137,49 +137,49 @@ function [indexes,RF_vectors, VM_VL_vectors] = create_train_set(global_matrices,
         plot(1:100, VM_VL3, '-k', 'LineWidth', 2);
         hold off;
         hold off;
-        subtitle("Condition 60 RPM 175 Hz", 'FontSize', 10);
+        subtitle("Condition 60 RPM 25.1 N m", 'FontSize', 10);
         
         subplot(5,2,7);
         plot(1:100, RF4, '-r', 'LineWidth', 2);
         hold on;
         plot(1:100, VM_VL4, '-k', 'LineWidth', 2);
         hold off;
-        subtitle("Condition 60 RPM 210 Hz", 'FontSize', 10);
+        subtitle("Condition 60 RPM 32.4 N m", 'FontSize', 10);
     
         subplot(5,2,9);
         plot(1:100, RF5, '-r', 'LineWidth', 2);
         hold on;
         plot(1:100, VM_VL5, '-k', 'LineWidth', 2);
         hold off;
-        subtitle("Condition 60 RPM 260 Hz", 'FontSize', 10);
+        subtitle("Condition 60 RPM 39.9 N m", 'FontSize', 10);
         
         subplot(5,2,4);
         plot(1:100, RF6, '-r', 'LineWidth', 2);
         hold on;
         plot(1:100, VM_VL6, '-k', 'LineWidth', 2);
         hold off;
-        subtitle("Condition 80 RPM 60 Hz", 'FontSize', 10);
+        subtitle("Condition 80 RPM 6.5 N m", 'FontSize', 10);
         
         subplot(5,2,6);
         plot(1:100, RF7, '-r', 'LineWidth', 2);
         hold on;
         plot(1:100, VM_VL7, '-k', 'LineWidth', 2);
         hold off;
-        subtitle("Condition 100 RPM 80 Hz", 'FontSize', 10);
+        subtitle("Condition 100 RPM 6.5 N m", 'FontSize', 10);
         
         subplot(5,2,8);
         plot(1:100, RF8, '-r', 'LineWidth', 2);
         hold on;
         plot(1:100, VM_VL8, '-k', 'LineWidth', 2);
         hold off;
-        subtitle("Condition 120 RPM 100 Hz", 'FontSize', 10);
+        subtitle("Condition 120 RPM 6.5 N m", 'FontSize', 10);
     
         subplot(5,2,10);
         plot(1:100, RF9, '-r', 'LineWidth', 2);
         hold on;
         plot(1:100, VM_VL9, '-k', 'LineWidth', 2);
         hold off;
-        subtitle("Condition 140 RPM 140 Hz", 'FontSize', 10);
+        subtitle("Condition 140 RPM 6.5 N m", 'FontSize', 10);
         sgtitle("Mean RF vs Mean VM & VL values across all 9 conditions and all 9 test subjects.")
         legend('RF', 'VM & VL','Location','south', 'Orientation', 'horizontal', 'FontSize', 10);
     end

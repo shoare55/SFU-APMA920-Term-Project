@@ -36,7 +36,7 @@ global_matrices = load_matrices();
 
 training_perc = 0.95; %Set the percentage of data to training on
 
-trials = 100;
+trials = 1;
 x= 1:trials;
 test_1_A = zeros(trials,1);
 test_1_B = zeros(trials,1);

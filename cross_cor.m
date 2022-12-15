@@ -61,39 +61,39 @@ function [correlation_norms,Cross_Cor_Matrix] = cross_cor(RF_vectors, VM_VL_vect
         
         subplot(3,3,1)
         plot(-99:99, Sixty_thirtyFive_norm,'LineWidth',lw);
-        subtitle("Condition 60 RPM 35 Hz", 'FontSize', 10);
+        subtitle("Condition 60 RPM 6.5 N m", 'FontSize', 10);
         
         subplot(3,3,2)
         plot(-99:99, Sixty_ninety_norm,'LineWidth',lw);
-        subtitle("Condition 60 RPM 90 Hz", 'FontSize', 10);
-        
+        subtitle("Condition 60 RPM 12.9 N m", 'FontSize', 10);
+
         subplot(3,3,3)
         plot(-99:99, Sixty_oneSevenFive_norm,'LineWidth',lw);
-        subtitle("Condition 60 RPM 175 Hz", 'FontSize', 10);
+        subtitle("Condition 60 RPM 25.1 N m", 'FontSize', 10);
         
         subplot(3,3,4)
         plot(-99:99, Sixty_twoTen_norm,'LineWidth',lw);
-        subtitle("Condition 60 RPM 210 Hz", 'FontSize', 10);
-        
+        subtitle("Condition 60 RPM 32.4 N m", 'FontSize', 10);
+    
         subplot(3,3,5)
         plot(-99:99, Sixty_twoSixty_norm,'LineWidth',lw);
-        subtitle("Condition 60 RPM 260 Hz", 'FontSize', 10);
+        subtitle("Condition 60 RPM 39.9 N m", 'FontSize', 10);
         
         subplot(3,3,6)
         plot(-99:99, Eighty_sixty_norm,'LineWidth',lw);
-        subtitle("Condition 80 RPM 60 Hz", 'FontSize', 10);
+        subtitle("Condition 80 RPM 6.5 N m", 'FontSize', 10);
         
         subplot(3,3,7)
         plot(-99:99, oneHund_eighty_norm,'LineWidth',lw);
-        subtitle("Condition 100 RPM 80 Hz", 'FontSize', 10);
+        subtitle("Condition 100 RPM 6.5 N m", 'FontSize', 10);
         
         subplot(3,3,8)
         plot(-99:99, OneTwenty_oneHund_norm,'LineWidth',lw);
-        subtitle("Condition 120 RPM 100 Hz", 'FontSize', 10);
-        
+        subtitle("Condition 120 RPM 6.5 N m", 'FontSize', 10);
+    
         subplot(3,3,9)
         plot(-99:99, oneForty_oneForty_norm,'LineWidth',lw);
-        subtitle("Condition 140 RPM 140 Hz", 'FontSize', 10);
+        subtitle("Condition 140 RPM 6.5 N m", 'FontSize', 10);
         sgtitle("Cross-Correlation Vector for RF muscle vs Mean VM & VL across all 9 conditions all 9 test subjects.")
     else
         Cross_Cor_Matrix = [];
